@@ -1,0 +1,62 @@
+.DS_Store
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+Aspose.Total.lic
+
+#Nuget packages folder
+packages/
+
+#Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+#Test binary, build with `go test -c`
+*.test
+
+#Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+#Database
+*.sql
+
+#Ignore files built by Visual Code
+.vs/
+/.idea
+*/**/go.sum
+/src/[Dd]ebug
+/bin/*
+.idea/
+.vscode/
+logs/*
+/config/
+*.config
+*.yaml

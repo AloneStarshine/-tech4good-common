@@ -1,1 +1,1 @@
-# -tech4good-common
+公共模型
